@@ -14,5 +14,6 @@ const generateBtn = document.getElementById('#generate-btn');
 
 // add click event listener
 generateBtn.addEventListener('click', ()=>{
-    
+    //generate random index within quotes array
+    const randomIndex = Math.floor(Math.random()* quotes.length);
 })
