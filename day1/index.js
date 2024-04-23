@@ -11,3 +11,8 @@ const quotes = [
 const quoteText = document.querySelector('.quote');
 const authorText = document.querySelector('.author');
 const generateBtn = document.getElementById('#generate-btn');
+
+// add click event listener
+generateBtn.addEventListener('click', ()=>{
+    
+})
