@@ -9,7 +9,7 @@ const quotes = [
 // select the DOM elements for displaying quote & author
 const quoteText = document.querySelector('.quote');
 const authorText = document.querySelector('.author');
-const generateBtn = document.getElementById('#generate-btn');
+const generateBtn = document.getElementById('generate-btn');
 
 // add click event listener
 generateBtn.addEventListener('click', ()=>{
